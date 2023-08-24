@@ -1,0 +1,118 @@
+body {
+  color: #fffff0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+header {
+  background-color: #cad4de;
+  text-align: center;
+}
+
+header img {
+  width: 250px;
+}
+
+header h1 {
+  text-align: left;
+  color: #014a93;
+}
+
+header nav {
+  text-align: right;
+  background-color: #027ab3;
+  padding: 20px;
+}
+
+header nav a {
+  margin-left: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+  color: #014a93;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.light {
+  font-weight: 200;
+}
+
+.blue {
+  color: #014a93;
+  font-weight: 800;
+}
+
+section .container {
+  padding: 20px 0;
+}
+
+#about,
+#contacts {
+  color: black;
+  text-align: center;
+}
+
+#about h2 {
+  text-align: left;
+}
+
+#about p {
+  text-align: justify;
+  margin-bottom: 30px;
+}
+
+#about a {
+  padding: 10px 50px;
+  background-color: #e15100;
+  border-radius: 10px;
+  color: white;
+}
+
+#tables {
+  background-color: #071952;
+}
+
+table,
+th,
+td {
+  border: 2px solid #e15100;
+  border-collapse: collapse;
+}
+
+table {
+  width: 100%;
+}
+
+th {
+  text-align: center;
+  padding: 5px;
+}
+
+td {
+  padding: 10px;
+  text-align: center;
+}
+
+td:last-child,
+tr:last-child {
+  text-align: right;
+  font-weight: bold;
+}
+
+#contacts h2,
+#contacts ul {
+  text-align: left;
+}
+
+footer {
+  text-align: center;
+  background-color: #027ab3;
+  padding: 20px 0;
+  color: white;
+}
